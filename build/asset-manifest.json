@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hotel_nattapat/static/css/main.7be82082.css",
+    "main.js": "/Hotel_nattapat/static/js/main.39de6a9c.js",
+    "static/js/453.ed3810f9.chunk.js": "/Hotel_nattapat/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Hotel_nattapat/index.html",
+    "main.7be82082.css.map": "/Hotel_nattapat/static/css/main.7be82082.css.map",
+    "main.39de6a9c.js.map": "/Hotel_nattapat/static/js/main.39de6a9c.js.map",
+    "453.ed3810f9.chunk.js.map": "/Hotel_nattapat/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7be82082.css",
+    "static/js/main.39de6a9c.js"
+  ]
+}
