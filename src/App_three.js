@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
-function App_three() {
+function AppThree() {
   return (
     <div className="App">
       <Navbar />
@@ -27,11 +27,11 @@ function App_three() {
           <button type="submit" className="btn btn-primary">ส่งข้อความ</button>
         </form>
       </div>
-      <footer className="mt-10 text-center">
+      <footer className="mt-5">
         <Footer />
       </footer>
     </div>
   );
 }
 
-export default App_three;
+export default AppThree;

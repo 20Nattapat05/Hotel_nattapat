@@ -6,8 +6,8 @@ function Navbar() {
         <div className="row m-0">
             <nav className="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
                 <div className="container">
-                    <a className="navbar-brand" href="#"><i className="fa-solid fa-bookmark me-2"></i> Aurora Resort</a>
-                    <button className="navbar-toggler">
+                    <Link className="navbar-brand" to="/"><i className="fa-solid fa-bookmark me-2"></i> Aurora Resort</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
