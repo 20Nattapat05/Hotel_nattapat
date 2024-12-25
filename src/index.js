@@ -2,15 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles.css';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import App from './App'; // Home page
+import App_two from './App_two'; // Rooms page
+import App_three from './App_three'; // Contact page
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} /> {/* หน้าแรก */}
+        <Route path="/rooms" element={<App_two />} /> {/* หน้าห้องพัก */}
+        <Route path="/contact" element={<App_three />} /> {/* หน้าติดต่อเรา */}
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
