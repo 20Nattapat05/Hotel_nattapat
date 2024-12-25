@@ -5,9 +5,9 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App from './App'; // Home page
-import App_two from './App_two'; // Rooms page
-import App_three from './App_three'; // Contact page
+import App from './App';
+import App_two from './App_two';
+import App_three from './App_three';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
